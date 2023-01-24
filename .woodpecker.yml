@@ -1,0 +1,31 @@
+pipeline:
+
+  hello:
+    image: alpine
+    commands: 
+        - echo "hello world" 
+
+#  publish-next-agent:
+#    image: woodpeckerci/plugin-docker-buildx
+#    secrets: [docker_username, docker_password]
+#    settings:
+#      repo: woodpeckerci/woodpecker-agent
+#      dockerfile: docker/Dockerfile.agent.multiarch
+#      platforms: windows/amd64,darwin/amd64,darwin/arm64,freebsd/amd64,linux/amd64,linux/arm64/v8
+#      tag: next
+#    when:
+#      branch: ${CI_REPO_DEFAULT_BRANCH}
+#      event: push
+
+
+  publish:
+    image: woodpeckerci/plugin-docker-buildx
+    secrets: [docker_username, docker_password]
+    settings:
+      repo: albert/aacom
+      dockerfile: Dockerfile
+      #platforms: windows/amd64,darwin/amd64,darwin/arm64,freebsd/amd64,linux/amd64,linux/arm64/v8
+      tag: latest
+    when:
+      branch: ${CI_REPO_DEFAULT_BRANCH}
+      event: push
