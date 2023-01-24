@@ -17,7 +17,6 @@ pipeline:
 #      branch: ${CI_REPO_DEFAULT_BRANCH}
 #      event: push
 
-
 #  publish:
 #    image: woodpeckerci/plugin-docker-buildx
 #    secrets: [docker_username, docker_password]
@@ -45,3 +44,12 @@ pipeline:
       branch: ${CI_REPO_DEFAULT_BRANCH}
       event: push
 
+
+  deploy:
+    image: plugins/docker
+    secrets: [docker_username, docker_password]
+    commands: 
+      - docker-compose up -d
+    when:
+      branch: ${CI_REPO_DEFATUL_BRANCH}
+      event: push
