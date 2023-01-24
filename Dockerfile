@@ -7,7 +7,8 @@ WORKDIR /webapp
 
 COPY ./ /webapp
 
-RUN npm install -g pnpm
+RUN npm install --location=global npm
+RUN npm install --location=global pnpm
 RUN pnpm install
 RUN pnpm run build
 
