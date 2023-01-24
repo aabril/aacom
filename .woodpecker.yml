@@ -37,7 +37,7 @@ pipeline:
     secrets: [docker_username, docker_password]
     settings:
       registry: git.oio.cat
-      repo: albert/aacom
+      repo: git.oio.cat/albert/aacom
       tags: latest
       username: ${docker_username}
       password: ${docker_password}
