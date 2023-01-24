@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+    aacom:
+        ports:
+            - '6080:3000'
+        image: aacom
