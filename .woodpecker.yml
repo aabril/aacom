@@ -17,7 +17,9 @@ pipeline:
   deploy:
     image: docker
     secrets: [docker_username, docker_password]
-    commands: 
+    commands:
+      - pwd 
+      - ls ./
       - docker-compose up -d
     volumes: 
       - /var/run/docker.sock:/var/run/docker.sock
