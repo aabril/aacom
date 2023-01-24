@@ -18,16 +18,30 @@ pipeline:
 #      event: push
 
 
+#  publish:
+#    image: woodpeckerci/plugin-docker-buildx
+#    secrets: [docker_username, docker_password]
+#    settings:
+#      registry: git.oio.cat
+#      repo: albert/aacom
+#      dockerfile: Dockerfile
+#      #platforms: windows/amd64,darwin/amd64,darwin/arm64,freebsd/amd64,linux/amd64,linux/arm64/v8
+#      #platforms: linux/amd64
+#      tag: latest
+#    when:
+#      branch: ${CI_REPO_DEFAULT_BRANCH}
+#      event: push
+
   publish:
-    image: woodpeckerci/plugin-docker-buildx
+    image: plugins/docker
     secrets: [docker_username, docker_password]
     settings:
       registry: git.oio.cat
       repo: albert/aacom
-      dockerfile: Dockerfile
-      #platforms: windows/amd64,darwin/amd64,darwin/arm64,freebsd/amd64,linux/amd64,linux/arm64/v8
-      #platforms: linux/amd64
-      tag: latest
+      tags: latest
+      username: ${docker_username}
+      password: ${docker_password}
     when:
       branch: ${CI_REPO_DEFAULT_BRANCH}
       event: push
+
