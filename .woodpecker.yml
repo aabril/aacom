@@ -19,7 +19,7 @@ pipeline:
     secrets: [docker_username, docker_password]
     commands:
       - echo $docker_username
-      - docker login -u $docker_username -p $docker_password git.oio.cat
+      #- docker login -u $docker_username -p $docker_password git.oio.cat
       - docker-compose up -d
     volumes: 
       - /var/run/docker.sock:/var/run/docker.sock
