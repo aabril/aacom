@@ -18,8 +18,7 @@ pipeline:
     image: docker
     secrets: [docker_username, docker_password]
     commands:
-      - pwd 
-      - ls ./
+      - echo $docker_username
       - docker login -u $docker_username -p $docker_password git.oio.cat
       - docker-compose up -d
     volumes: 
