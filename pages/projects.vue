@@ -1,10 +1,10 @@
 <template>
     <div class="main">
       <p>
-        <span class="black">About</span>.
+        <span class="black">projects</span>.
       </p>
       <p>
-        this is /about. go pack to <a href="/">home</a>
+        this is /projects. go pack to <a href="/">home</a>
       </p>
     </div>
   </template>

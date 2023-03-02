@@ -3,8 +3,8 @@
     <p>
       <span class="black">Hello world</span>.
       This is the personal site of <span class="red">Albert Abril</span>.
-      Here you will find some relevant info <a href="/about">about me</a>, like my <a href="">personal projects</a>, or some
-      <a href="/articles">articles</a>.
+      Here you will find some relevant info <a href="/about">about me</a>, like my <a href="/projects">personal projects</a>, or some
+      <a href="/articles">articles</a> or also the <a href="/notes/">notes</a>.
     </p>
   </div>
 </template>
