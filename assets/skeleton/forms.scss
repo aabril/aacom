@@ -1,0 +1,174 @@
+$background-color_1: #fff;
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"] {
+	height: 38px;
+	padding: 6px 10px;
+	background-color: $background-color_1;
+	border: 1px solid #D1D1D1;
+	border-radius: 4px;
+	box-shadow: none;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	&:focus {
+		border: 1px solid #33C3F0;
+		outline: 0;
+	}
+}
+input[type="number"] {
+	height: 38px;
+	padding: 6px 10px;
+	background-color: $background-color_1;
+	border: 1px solid #D1D1D1;
+	border-radius: 4px;
+	box-shadow: none;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	&:focus {
+		border: 1px solid #33C3F0;
+		outline: 0;
+	}
+}
+input[type="search"] {
+	height: 38px;
+	padding: 6px 10px;
+	background-color: $background-color_1;
+	border: 1px solid #D1D1D1;
+	border-radius: 4px;
+	box-shadow: none;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	&:focus {
+		border: 1px solid #33C3F0;
+		outline: 0;
+	}
+}
+input[type="text"] {
+	height: 38px;
+	padding: 6px 10px;
+	background-color: $background-color_1;
+	border: 1px solid #D1D1D1;
+	border-radius: 4px;
+	box-shadow: none;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	&:focus {
+		border: 1px solid #33C3F0;
+		outline: 0;
+	}
+}
+input[type="tel"] {
+	height: 38px;
+	padding: 6px 10px;
+	background-color: $background-color_1;
+	border: 1px solid #D1D1D1;
+	border-radius: 4px;
+	box-shadow: none;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	&:focus {
+		border: 1px solid #33C3F0;
+		outline: 0;
+	}
+}
+input[type="url"] {
+	height: 38px;
+	padding: 6px 10px;
+	background-color: $background-color_1;
+	border: 1px solid #D1D1D1;
+	border-radius: 4px;
+	box-shadow: none;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	&:focus {
+		border: 1px solid #33C3F0;
+		outline: 0;
+	}
+}
+input[type="password"] {
+	height: 38px;
+	padding: 6px 10px;
+	background-color: $background-color_1;
+	border: 1px solid #D1D1D1;
+	border-radius: 4px;
+	box-shadow: none;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	&:focus {
+		border: 1px solid #33C3F0;
+		outline: 0;
+	}
+}
+textarea {
+	height: 38px;
+	padding: 6px 10px;
+	background-color: $background-color_1;
+	border: 1px solid #D1D1D1;
+	border-radius: 4px;
+	box-shadow: none;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	min-height: 65px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	&:focus {
+		border: 1px solid #33C3F0;
+		outline: 0;
+	}
+}
+select {
+	height: 38px;
+	padding: 6px 10px;
+	background-color: $background-color_1;
+	border: 1px solid #D1D1D1;
+	border-radius: 4px;
+	box-shadow: none;
+	box-sizing: border-box;
+	&:focus {
+		border: 1px solid #33C3F0;
+		outline: 0;
+	}
+}
+label {
+	display: block;
+	margin-bottom: .5rem;
+	font-weight: 600;
+	>.label-body {
+		display: inline-block;
+		margin-left: .5rem;
+		font-weight: normal;
+	}
+}
+legend {
+	display: block;
+	margin-bottom: .5rem;
+	font-weight: 600;
+}
+fieldset {
+	padding: 0;
+	border-width: 0;
+}
+input[type="checkbox"] {
+	display: inline;
+}
+input[type="radio"] {
+	display: inline;
+}

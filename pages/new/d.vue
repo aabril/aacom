@@ -3,7 +3,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="column-40">
+        <div class="four columns">
           <div class="intro">
             <p>
               <span class="black">Hello world</span>.
@@ -14,7 +14,7 @@
             </p>            
           </div>
         </div>
-        <div class="column-40">
+        <div class="eight columns">
           <div class="intro">
             <p>
               <span class="black">Hello world</span>.
@@ -34,11 +34,28 @@
 </template>
 
 
-<style>
+<style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Roboto:900');
-@import url('~/assets/skeleton.css');
+@import '~/assets/skeleton/skeleton.scss';
 
+.gray {  color: #aaa;  }
+.black { color: black; }
+.red {   color: red;   }
 
+.main {
+  width: 100%;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  border-width: 1px;
+  border-color: aqua;
+  border-style: solid;
+  // width: 1226px;
+}
+.row {}
 
 .intro {
   color: #aaa;

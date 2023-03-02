@@ -1,0 +1,232 @@
+$color_1: #555;
+$color_2: #333;
+$color_3: #FFF;
+$background-color_1: transparent;
+$background-color_2: #33C3F0;
+$background-color_3: #1EAEDB;
+$border-color_1: #888;
+$border-color_2: #33C3F0;
+$border-color_3: #1EAEDB;
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+	display: inline-block;
+	height: 38px;
+	padding: 0 30px;
+	color: $color_1;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: $background-color_1;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+	&:hover {
+		color: $color_2;
+		border-color: $border-color_1;
+		outline: 0;
+	}
+	&:focus {
+		color: $color_2;
+		border-color: $border-color_1;
+		outline: 0;
+	}
+}
+button {
+	display: inline-block;
+	height: 38px;
+	padding: 0 30px;
+	color: $color_1;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: $background-color_1;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+	&:hover {
+		color: $color_2;
+		border-color: $border-color_1;
+		outline: 0;
+	}
+	&:focus {
+		color: $color_2;
+		border-color: $border-color_1;
+		outline: 0;
+	}
+}
+input[type="submit"] {
+	display: inline-block;
+	height: 38px;
+	padding: 0 30px;
+	color: $color_1;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: $background-color_1;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+	&:hover {
+		color: $color_2;
+		border-color: $border-color_1;
+		outline: 0;
+	}
+	&:focus {
+		color: $color_2;
+		border-color: $border-color_1;
+		outline: 0;
+	}
+}
+input[type="reset"] {
+	display: inline-block;
+	height: 38px;
+	padding: 0 30px;
+	color: $color_1;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: $background-color_1;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+	&:hover {
+		color: $color_2;
+		border-color: $border-color_1;
+		outline: 0;
+	}
+	&:focus {
+		color: $color_2;
+		border-color: $border-color_1;
+		outline: 0;
+	}
+}
+input[type="button"] {
+	display: inline-block;
+	height: 38px;
+	padding: 0 30px;
+	color: $color_1;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: $background-color_1;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+	&:hover {
+		color: $color_2;
+		border-color: $border-color_1;
+		outline: 0;
+	}
+	&:focus {
+		color: $color_2;
+		border-color: $border-color_1;
+		outline: 0;
+	}
+}
+.button.button-primary {
+	color: $color_3;
+	background-color: $background-color_2;
+	border-color: $border-color_2;
+	&:hover {
+		color: $color_3;
+		background-color: $background-color_3;
+		border-color: $border-color_3;
+	}
+	&:focus {
+		color: $color_3;
+		background-color: $background-color_3;
+		border-color: $border-color_3;
+	}
+}
+button.button-primary {
+	color: $color_3;
+	background-color: $background-color_2;
+	border-color: $border-color_2;
+	&:hover {
+		color: $color_3;
+		background-color: $background-color_3;
+		border-color: $border-color_3;
+	}
+	&:focus {
+		color: $color_3;
+		background-color: $background-color_3;
+		border-color: $border-color_3;
+	}
+}
+input[type="submit"].button-primary {
+	color: $color_3;
+	background-color: $background-color_2;
+	border-color: $border-color_2;
+	&:hover {
+		color: $color_3;
+		background-color: $background-color_3;
+		border-color: $border-color_3;
+	}
+	&:focus {
+		color: $color_3;
+		background-color: $background-color_3;
+		border-color: $border-color_3;
+	}
+}
+input[type="reset"].button-primary {
+	color: $color_3;
+	background-color: $background-color_2;
+	border-color: $border-color_2;
+	&:hover {
+		color: $color_3;
+		background-color: $background-color_3;
+		border-color: $border-color_3;
+	}
+	&:focus {
+		color: $color_3;
+		background-color: $background-color_3;
+		border-color: $border-color_3;
+	}
+}
+input[type="button"].button-primary {
+	color: $color_3;
+	background-color: $background-color_2;
+	border-color: $border-color_2;
+	&:hover {
+		color: $color_3;
+		background-color: $background-color_3;
+		border-color: $border-color_3;
+	}
+	&:focus {
+		color: $color_3;
+		background-color: $background-color_3;
+		border-color: $border-color_3;
+	}
+}

@@ -1,0 +1,11 @@
+$color_1: #1EAEDB;
+$color_2: #0FA0CE;
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+	color: $color_1;
+	&:hover {
+		color: $color_2;
+	}
+}
