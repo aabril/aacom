@@ -5,7 +5,14 @@
       This is the personal site of <span class="red">Albert Abril</span>.
       Here you will find some relevant info <a href="/about">about me</a>, like my <a href="/projects">personal
         projects</a>, or some
-      <a href="/articles">articles</a> or also the <a href="/notes/">notes</a>.
+      <a href="/articles">articles</a>.
+
+      <ContentList path="/note" v-slot="{ list }">
+        <hr>
+      <div v-for="article in list" :key="article._path">
+            <span>{{ article.title }} - {{ article._path }}</span>
+      </div>
+    </ContentList>
     </p>
   </div>
 </template>
@@ -13,6 +20,8 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Roboto:900');
+@import url('https://cdn.jsdelivr.net/npm/@ajusa/lit@latest/dist/lit.css');
+
 
 @-webkit-keyframes kenburns-top {
   0% {
@@ -47,14 +56,18 @@
 }
 
 
+body {
+  background-color: aliceblue;
+}
+
 .main {
+  background-color: white;
   max-width: 500px;
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   padding: 1em;
   color: #aaa;
-  /* background-image: url('https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1036&q=80'); */
 }
 
 a {
