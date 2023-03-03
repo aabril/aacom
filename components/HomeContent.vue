@@ -8,13 +8,13 @@
         <h5>Posts</h5>
         <ul>
             <li>
-                <e>2022/03/02</e> - <b>This is the title</b>
+                2022/03/02 - <b>This is the title</b>
             </li>
             <li>
-                <e>2022/02/12</e> - <b>This is another title</b>
+                2022/02/12 - <b>This is another title</b>
             </li>
             <li>
-                <e>2022/01/28</e> - <b>This is the first post</b>
+                2022/01/28 - <b>This is the first post</b>
             </li>
         </ul>
         <ul>
