@@ -3,10 +3,10 @@
 
     <div class="container">
       <div class="row">
-        <div class="three columns ">
+        <div class="four columns ">
           <HomeHelloWorld />
         </div>
-        <div class="eight columns">
+        <div class="seven offset-by-one columns">
           <HomeContent />
         </div>
       </div>

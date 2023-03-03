@@ -5,7 +5,7 @@
         </div>
         <div class="description">
             This is the personal site of <span class="red">Albert Abril</span>.
-            Here I'll be sharing <NuxtLink to="/notes">notes</NuxtLink>, 
+            Here I will be <span class="red">sharing</span> <NuxtLink to="/notes">notes</NuxtLink>, 
             some <NuxtLink to="/articles">articles</NuxtLink> and info about 
             <NuxtLink to="/projects">projects.</NuxtLink>
         </div>
