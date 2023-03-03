@@ -49,19 +49,16 @@
   font-weight: bold;
 }
 
+
+
 .container {
-  border-width: 1px;
-  border-color: aqua;
-  border-style: solid;
-  // width: 1226px;
+  @include border(1px, aqua);
 }
 .row {}
 
 .intro {
   color: #aaa;
-  border-width: 8px;
-  border-color: lightcoral;
-  border-style: solid;
+  @include border(8px, lightcoral);
   padding: 1em;
 }
 
