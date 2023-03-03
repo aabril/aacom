@@ -55,9 +55,7 @@ $background-color_1: lavender;
         }
 
         .separator {
-            color: red;
-
-            padding: 10px;
+            // padding: 10px;
             font-weight: 100;
         }
 
@@ -71,7 +69,6 @@ $background-color_1: lavender;
 
     .first {
         font-size: 1em;
-        // padding-right:220px;
         a {
             &:hover {
                 color: $color_3;

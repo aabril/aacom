@@ -3,8 +3,11 @@
 
     <div class="container">
       <div class="row">
-        <div class="twelve columns">
+        <!-- <div class="twelve columns">
           <NavBar />
+        </div> -->
+        <div class="twelve columns">
+          <NavBarTwo />
         </div>
       </div>
       <div class="row">

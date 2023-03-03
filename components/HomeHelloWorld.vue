@@ -2,10 +2,11 @@
     <div class="intro">
 
         <div class="description">
-            This is the personal site of <span class="red">Albert Abril</span>.
-            Here I will be <span class="red">sharing</span> <NuxtLink to="/notes">notes</NuxtLink>, 
+            <p>
+                Here I will be <span class="red">sharing</span> <NuxtLink to="/notes">notes</NuxtLink>, 
             some <NuxtLink to="/articles">articles</NuxtLink> and 
             <NuxtLink to="/projects">projects.</NuxtLink>
+            </p>
         </div>
     </div>
 </template>
