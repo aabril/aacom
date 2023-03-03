@@ -1,12 +1,10 @@
 <template>
     <div class="intro">
-        <div class="title">
-            <span class="black">albertabril.com</span>
-        </div>
+
         <div class="description">
             This is the personal site of <span class="red">Albert Abril</span>.
             Here I will be <span class="red">sharing</span> <NuxtLink to="/notes">notes</NuxtLink>, 
-            some <NuxtLink to="/articles">articles</NuxtLink> and info about 
+            some <NuxtLink to="/articles">articles</NuxtLink> and 
             <NuxtLink to="/projects">projects.</NuxtLink>
         </div>
     </div>
@@ -36,7 +34,7 @@ $background-color_1: lavender;
     }
     .description{
         color: $color_1;
-	    padding-top: 1em;
+	    padding-top: 0em;
         font-size: 1.7em;
         font-family: $font-family_1;
         font-weight: bold;

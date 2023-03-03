@@ -3,6 +3,11 @@
 
     <div class="container">
       <div class="row">
+        <div class="twelve columns">
+          <NavBar />
+        </div>
+      </div>
+      <div class="row">
         <div class="four columns ">
           <HomeHelloWorld />
         </div>
