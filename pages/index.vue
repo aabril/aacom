@@ -8,6 +8,9 @@
       <a href="/articles">articles</a> or also the <a href="/notes/">notes</a>.
     </p>
   </div>
+
+  <div style="font-size: 0.5em; padding-top: 40px;">This site is being develop as you read it, take it as <b>Work In Progress </b> </div>
+
 </template>
 
 
